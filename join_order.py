@@ -1,4 +1,7 @@
 #!/usr/bin/python
+"""
+It shows that .join() waits while child process to be terminated and then continues execution code.
+"""
 
 from multiprocessing import Process
 import time
@@ -37,4 +40,5 @@ def main(join=False):
 
 
 if __name__ == '__main__':
-    main()
+    # True/False as join argument
+    main(join=True)

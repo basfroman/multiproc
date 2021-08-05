@@ -21,7 +21,6 @@ def proc_functions():
     # proc.join()
 
 
-# https://zetcode.com/python/multiprocessing/
 if __name__ == '__main__':
     logging.info('It started...')
     proc_functions()
