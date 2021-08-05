@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 It shows that .join() waits while child process to be terminated and then continues execution code.
 """

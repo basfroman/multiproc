@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from multiprocessing import Process
 import multiprocessing as mp
 import time
